@@ -24,5 +24,7 @@ public class Main {
                 System.out.println("Congratulations! You guessed the right number!");
             }
     }
+    while (guess > answer || guess < answer);
+        System.out.println("Thank you for playing the game.");
   }
 }

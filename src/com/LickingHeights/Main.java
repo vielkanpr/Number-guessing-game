@@ -8,6 +8,8 @@ public class Main {
         System.out.println("This is the Number Guessing game. To play guess any number betweeen 1 and 50");
         int guess;
         int answer;
-
+        answer = 21;
+        do {
+           
   }
 }

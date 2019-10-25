@@ -20,6 +20,9 @@ public class Main {
             else if (guess< answer){
                 System.out.println("that number is too low. Try again please.");
             }
-            
+            else if (guess == answer){
+                System.out.println("Congratulations! You guessed the right number!");
+            }
+    }
   }
 }

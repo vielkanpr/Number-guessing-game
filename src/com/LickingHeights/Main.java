@@ -10,6 +10,10 @@ public class Main {
         int answer;
         answer = 21;
         do {
-           
+            Scanner keyboard;
+            keyboard = new Scanner(System.in);
+            System.out.println(" please guess number now;");
+            guess = keyboard.nextInt();
+            
   }
 }

@@ -14,6 +14,12 @@ public class Main {
             keyboard = new Scanner(System.in);
             System.out.println(" please guess number now;");
             guess = keyboard.nextInt();
+            if (guess > answer ){
+                System.out.println("that number is too high. Please try again.");
+            }
+            else if (guess< answer){
+                System.out.println("that number is too low. Try again please.");
+            }
             
   }
 }
